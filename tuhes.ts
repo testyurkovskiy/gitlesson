@@ -6,4 +6,8 @@ class Tuhes {
     getSomeOtherData():String {
         return "Some other tuhes";
     }
+
+    saveData(data:any[]):void {
+        "Data is saving to the storage";
+    }
 }
